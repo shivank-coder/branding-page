@@ -1,0 +1,34 @@
+.navigation{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh-72);
+
+}
+.firstblock
+{
+    max-width: 50%;
+}
+
+h1{
+    font-size: 108px;
+    font-weight: 800px;
+    line-height: 102px;
+}
+ 
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sm-testimonial p
+{
+font-size: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100px;
+}
+.sm-testimonial img{
+    width: 100px;
+}

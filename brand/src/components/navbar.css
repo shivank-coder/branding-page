@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Work+Sans:wght@300&display=swap');
+
+
+
+.navbar{
+    display: flex;
+   max-width: 1280px;
+    justify-content: space-between;
+    margin: auto;
+    height: 72px;
+    align-items: center;
+   
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background-color :red;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.navbar img{
+    width: 72px;
+}
+/* .navbar ul{
+    display: flex;
+    list-style: none;
+    font-family: Roboto;
+
+}
+.navbar li{
+    margin-left: 100px;
+    
+}
+.navbar button{
+    width: 50px;
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 350px;
+    background-color: red;
+    color: wheat;
+}
+.navbar img{
+    width: 70px;
+} */
